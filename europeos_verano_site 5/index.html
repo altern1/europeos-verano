@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Viaja Seguro Este Verano | EUROPEOS</title>
+  <meta name="description" content="Pre-Owned blindados y SUVs seleccionadas a precios especiales. Unidades pre-owned, blindadas y premium, listas para entrega." />
+  <meta property="og:title" content="Viaja Seguro Este Verano | EUROPEOS" />
+  <meta property="og:description" content="Pre-Owned blindados y SUVs seleccionadas a precios especiales." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+      <source src="assets/hero-video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <nav class="nav">
+      <img src="assets/europeos-logo.svg" alt="EUROPEOS" class="logo" />
+      <a class="nav-cta" href="https://www.europeos.mx/catalogo" target="_blank" rel="noopener">Ver catálogo</a>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Selección limitada · Temporada verano</p>
+        <h1>Viaja Seguro<br />Este Verano</h1>
+        <p class="subhead">Pre-Owned blindados y SUVs seleccionadas a precios especiales.</p>
+        <p class="intro">Unidades pre-owned, blindadas y premium, listas para entrega.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://wa.me/525543619902?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20promoci%C3%B3n%20Viaja%20Seguro%20Este%20Verano" target="_blank" rel="noopener">Solicitar información</a>
+          <a class="button secondary" href="#unidades">Ver unidades</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <span>EUROPEOS</span>
+        <strong>Luxury, Sport &<br />Armoring Cars</strong>
+        <small>Security · Presence · Confidence</small>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="statement">
+      <p>Este verano, viaja con mayor tranquilidad, presencia y confianza. En EUROPEOS reunimos una selección limitada de unidades pre-owned —incluyendo SUVs blindadas y modelos premium— con precios especiales por temporada.</p>
+          </section>
+
+    <section class="filters" aria-label="Filtros de inventario">
+      <button class="filter active" data-filter="all">Todas</button>
+      <button class="filter" data-filter="blindada">Blindadas</button>
+      <button class="filter" data-filter="no-blindada">No blindadas</button>
+      <button class="filter" data-filter="under-700">Hasta $700k</button>
+      <button class="filter" data-filter="premium">Premium</button>
+    </section>
+
+    <section id="unidades" class="inventory" aria-live="polite"></section>
+
+    <section class="note">
+      <h2>Información importante</h2>
+      <p>Disponibilidad sujeta a cambio sin previo aviso. Consulta ficha, fotos, nivel de blindaje y condiciones directamente con nuestro equipo comercial.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/europeos-logo.svg" alt="EUROPEOS" class="footer-logo" />
+    <p>Luxury, Sport & Armoring Cars</p>
+    <p><a href="tel:+525543619902">+52 55 4361 9902</a> · <a href="mailto:info@europeos.com.mx">info@europeos.com.mx</a></p>
+  </footer>
+
+  <script src="inventory.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
