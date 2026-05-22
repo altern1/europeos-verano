@@ -100,9 +100,9 @@ a { color: inherit; }
 h1 {
   font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
   font-size: clamp(43px, 8vw, 106px);
-  line-height: .92;
+  line-height: 1.08;
   letter-spacing: -.055em;
-  margin: 14px 0 20px;
+  margin: 18px 0 34px;
   font-weight: 700;
 }
 
